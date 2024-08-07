@@ -6,9 +6,6 @@ Para realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a 
 
 **Observações:** Para aplicar os textos em gradiente, utilize a propriedade CSS `background-clip`, porém, para funcionar em alguns navegadores, é necessário utilizar a propriedade `-webkit-background-clip: text;`.
 
-
----
-
 Com este desafio, você estará um passo mais próximo de dominar o CSS e criar páginas web incríveis. Boa sorte! 🎉
 
 ---
