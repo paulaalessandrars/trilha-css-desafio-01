@@ -1,0 +1,237 @@
+/* Estilos Gerais */
+* {
+    font-family: "Raleway", sans-serif; /* Define a fonte do texto */
+    box-sizing: border-box;
+    margin: 0;
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    background-color: black; /* Define a cor de fundo do body */
+}
+
+a {
+    color: inherit; /* Define a cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
+section {
+    margin: 100px auto;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+/* Banner */
+header.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png); /*colocar cor de fundo + imagem de fundo tbm*/
+    background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço do banner */
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center; /* Centraliza o texto no banner */
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+
+header.banner .banner-content {
+    color: white;
+    width: 600px; /* Define a largura máxima do conteúdo do banner */
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+header.banner .logo img {
+    height: 240px;
+    width: 260px;
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+
+header.banner h1 {
+    display: block;
+    font-size: 2.5rem; /* Define o tamanho da fonte do h1 */
+    font-weight: 900; /* Define o peso da fonte do h1 como negrito */
+    line-height: 47px;
+    text-transform: uppercase; /* Transforma o texto para letras maiúsculas */
+    color: transparent; /* Define a cor do texto como transparente */
+    background: linear-gradient(#33A8DB, #1472B7); /* Aplica um gradiente de fundo ao texto */
+    background-clip: text; /* Recorta o fundo para o texto */
+    -webkit-background-clip: text; /* Recorta o fundo para o texto (prefixo para WebKit) */
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+header.banner p {
+    font-size: 1.25em; /* Define o tamanho da fonte do parágrafo */
+    margin: 16px 0 24px;
+    font-weight: normal; /* Define o peso da fonte do parágrafo como normal */
+}
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
+header.banner button:hover {
+    background: linear-gradient(#084f85, #08587a, #1071ba);
+    color: white;
+    border: 1px solid white;
+    border-radius: 1px;
+    
+}
+
+/* Seção de Conteúdo do Curso */
+#course-content {
+    text-align: center; /* Centraliza o texto na seção */
+    width: 800px;
+    color: white;
+}
+
+#course-content h2 {
+    font-size: 2em; /* Define o tamanho da fonte do cabeçalho */
+    margin-bottom: 24px; /* Define a margem inferior do cabeçalho */
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+
+.modules-list {
+    display: flex; /* Define um layout flexível para a lista de módulos */
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin: 24px 0;
+}
+
+.modules-list .module {
+    color: white;
+    width: 530px; /* Define a largura dos módulos */
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 3px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+.modules-list .module span {
+    color: #33A8DB; /* Define a cor do texto dentro do span nos módulos */
+}
+
+/* Seção Transforme o Mundo */
+#transform-world {
+    height: 560px;
+    background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço da seção */
+    background-image: url('../images/person.webp'); /* Define a imagem de fundo para a seção */
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom:  1px solid #33a8db80;
+    padding: 200px;
+}
+
+#transform-world p {
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33a8db;
+}
+
+/* Seção Desafios Profissionais */
+#professional-challenges {
+    text-align: center; /* Centraliza o texto na seção */
+    width: 800px;
+    margin: 100px auto;
+}
+
+#professional-challenges h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#professional-challenges img {
+    max-width: 100%; /* Define a largura máxima da imagem para 100% do contêiner */
+    height: auto;
+    margin-bottom: 20px; /* Define a margem inferior da imagem */
+}
+
+#professional-challenges p {
+    display: block;
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+}
+
+/* Rodapé */
+footer {
+    display: block;
+    unicode-bidi: isolate;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+
+footer .dio-logo {
+    max-width: 120px; /* Define a largura máxima da imagem do logo no rodapé */
+}
+
+footer p {
+    font-size: 1em; /* Define o tamanho da fonte do parágrafo no rodapé */
+    color: white;
+}
+
+footer a {
+    color: #33a8db; /* Define a cor dos links no rodapé */
+    text-decoration: none; /* Adiciona sublinhado aos links no rodapé */
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #72bcd6; /* Altera a cor dos links ao passar o mouse sobre eles */
+}
